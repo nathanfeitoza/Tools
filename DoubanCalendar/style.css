@@ -1,0 +1,49 @@
+#douban {
+    width: 40em;
+    height: 100%;
+    border-right: 2px dashed grey;
+    padding-right: 2em;
+    
+}
+
+#douban > div {
+    height: 410px;
+    padding: 0;
+    border-bottom: 2px dashed grey;
+}
+
+img {
+    float: left;
+    margin-right: 2em;
+    width: 270px;
+    height: 410px;
+}
+
+.info {
+    height: 180px;
+}
+
+.info p:first-child {
+    font-weight: 700;
+}
+
+.comment {
+    height: 40px;
+}
+
+.date {
+    position: relative;
+    height: 90px;
+}
+
+.date p:first-child {
+    position: absolute;
+    left: 5em;
+    display: block;
+    font-size: 6em;
+    margin: 0;
+}
+
+.star {
+    color: #fdab3e;
+}
